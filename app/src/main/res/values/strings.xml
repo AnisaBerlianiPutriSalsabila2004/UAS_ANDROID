@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Projek_alsa</string>
+    <array name="list_deskripsi">
+        <item>Deskripsi 2 ANNKJ FVBBAUD BUIADBUBC AUHDU AFHDUAFAI UHUIDCHS NDYS JDGHJSD HSUDH dhqeu
+            dauid ar dqehdroqe qjdrqo9ed oadjoqd
+        </item>
+        <item>>Deskripsi 2 ANNKJ FVBBAUD BUIADBUBC AUHDU AFHDUAFAI UHUIDCHS NDYS JDGHJSD HSUDH dhqeu
+            dauid ar dqehdroqe qjdrqo9ed oadjoqd
+        </item>
+        <item>>Deskripsi 3 ANNKJ FVBBAUD BUIADBUBC AUHDU AFHDUAFAI UHUIDCHS NDYS JDGHJSD HSUDH dhqeu
+            dauid ar dqehdroqe qjdrqo9ed oadjoqd
+        </item>
+        <item>>Deskripsi 4 ANNKJ FVBBAUD BUIADBUBC AUHDU AFHDUAFAI UHUIDCHS NDYS JDGHJSD HSUDH dhqeu
+            dauid ar dqehdroqe qjdrqo9ed oadjoqd
+        </item>
+        <item>>Deskripsi 5 ANNKJ FVBBAUD BUIADBUBC AUHDU AFHDUAFAI UHUIDCHS NDYS JDGHJSD HSUDH dhqeu
+            dauid ar dqehdroqe qjdrqo9ed oadjoqd
+        </item>
+        <item>>Deskripsi 6 ANNKJ FVBBAUD BUIADBUBC AUHDU AFHDUAFAI UHUIDCHS NDYS JDGHJSD HSUDH dhqeu
+            dauid ar dqehdroqe qjdrqo9ed oadjoqd
+        </item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

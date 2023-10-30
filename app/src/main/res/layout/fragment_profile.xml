@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_purple"
+    tools:context=".Profile">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="50dp"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:backgroundTint="@color/white"
+            android:layout_height="150dp"
+            android:background="@drawable/profile"
+            android:layout_marginTop="80dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <TextView
+                android:id="@+id/username_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username : Ikhwan Hanif"
+                android:textSize="24dp"
+                android:background="@drawable/border_text"
+                android:padding="15dp"
+                android:textColor="@color/main_black"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="50dp"
+                />
+
+            <TextView
+                android:id="@+id/phone_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone : 08123928"
+                android:textSize="24dp"
+                android:background="@drawable/border_text"
+                android:padding="15dp"
+                android:textColor="@color/main_black"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/email_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email : hanif123@gmail.com"
+                android:textSize="24dp"
+                android:background="@drawable/border_text"
+                android:padding="15dp"
+                android:textColor="@color/main_black"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="20dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
