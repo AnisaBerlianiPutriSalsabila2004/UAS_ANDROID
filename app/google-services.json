@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23361449324",
+    "project_id": "uasandroid-efeed",
+    "storage_bucket": "uasandroid-efeed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23361449324:android:35d7a60e1b03c9c0015749",
+        "android_client_info": {
+          "package_name": "com.example.projek_alsa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjU2PV5yx1fY5hxhQ8fQvdo448KBo_IN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
