@@ -12,6 +12,33 @@
         android:theme="@style/Theme.Projek_alsa"
         tools:targetApi="31">
         <activity
+            android:name=".Public.publicHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Public.loginRegisterActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Admin.InputActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.detailFilmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.adminHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".paymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pilihSeatActivity"
+            android:exported="false" />
+        <activity
             android:name=".summary"
             android:exported="false" />
         <activity
@@ -25,13 +52,7 @@
             android:exported="false" />
         <activity
             android:name=".registerPage"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".loginPage"
             android:exported="false" />

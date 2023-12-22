@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main_purple"
-    tools:context=".Profile">
+    android:background="@color/white"
+    tools:context=".profileFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -12,25 +12,63 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="20dp"
         android:gravity="center_horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Profile"
-            android:textSize="40dp"
-            android:textColor="@color/white"
-            android:fontFamily="sans-serif-black"
-            android:layout_marginTop="50dp"
+            android:text="Settings"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
             />
 
-        <ImageView
-            android:layout_width="150dp"
-            android:backgroundTint="@color/white"
-            android:layout_height="150dp"
-            android:background="@drawable/profile"
-            android:layout_marginTop="80dp"
-            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_input"
+            android:paddingVertical="15dp"
+            android:layout_marginHorizontal="10dp"
+            android:paddingStart="15dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile_img"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="10dp">
+
+                <TextView
+                    android:id="@+id/txt_username_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama User"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_bold"/>
+
+                <TextView
+                    android:id="@+id/txt_email_profiles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama User"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/poppins_bold"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,44 +76,85 @@
             android:orientation="vertical"
             android:paddingHorizontal="20dp">
 
-            <TextView
-                android:id="@+id/username_profile"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Username : Ikhwan Hanif"
-                android:textSize="24dp"
-                android:background="@drawable/border_text"
-                android:padding="15dp"
-                android:textColor="@color/main_black"
-                android:fontFamily="sans-serif-medium"
-                android:layout_marginTop="50dp"
-                />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Account"
+               android:fontFamily="@font/poppins_bold"
+               android:textSize="18dp"
+               android:layout_marginTop="10dp"/>
 
             <TextView
-                android:id="@+id/phone_profile"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Phone : 08123928"
-                android:textSize="24dp"
-                android:background="@drawable/border_text"
-                android:padding="15dp"
-                android:textColor="@color/main_black"
-                android:fontFamily="sans-serif-medium"
+                android:text="Account Detail"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="15dp"
+                android:textColor="@color/semi_black"
+                android:drawableLeft="@drawable/profile_icon"
+                android:drawablePadding="10dp"
                 android:layout_marginTop="10dp"
                 />
 
-            <TextView
-                android:id="@+id/email_profile"
+            <View
                 android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/grey"/>
+
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Email : hanif123@gmail.com"
-                android:textSize="24dp"
-                android:background="@drawable/border_text"
-                android:padding="15dp"
-                android:textColor="@color/main_black"
-                android:fontFamily="sans-serif-medium"
-                android:layout_marginTop="20dp"
+                android:text="Discount Category"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="15dp"
+                android:textColor="@color/semi_black"
+                android:drawableLeft="@drawable/star_icon"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
                 />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/grey"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Card"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="15dp"
+                android:textColor="@color/semi_black"
+                android:drawableLeft="@drawable/card_icon"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/grey"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Favourite Film"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="15dp"
+                android:textColor="@color/semi_black"
+                android:drawableLeft="@drawable/movie_icon"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/grey"/>
 
         </LinearLayout>
 
