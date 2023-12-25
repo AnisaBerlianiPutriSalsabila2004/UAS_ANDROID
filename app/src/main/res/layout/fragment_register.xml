@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Public.loginRegisterActivity">
+    tools:context=".registerFragment">
 
     <LinearLayout
         android:paddingVertical="20dp"
@@ -16,6 +16,7 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_name_regis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -23,7 +24,6 @@
             android:hint="Name">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/et_name_regis"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -38,66 +38,66 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_email_regis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
 
             android:hint="Email">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/et_email_regis"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/email"
-                android:textSize="13dp"
-                android:inputType="textEmailAddress"
-                android:drawableTint="@color/main_purple"
-                android:drawablePadding="10dp"
-                android:fontFamily="@font/poppins_medium"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/email"
+            android:textSize="13dp"
+            android:inputType="textEmailAddress"
+            android:drawableTint="@color/main_purple"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins_medium"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_phone_regis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:hint="Phone">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/et_phone_regis"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/phone"
-                android:textSize="13dp"
-                android:inputType="number"
-                android:drawableTint="@color/main_purple"
-                android:drawablePadding="10dp"
-                android:fontFamily="@font/poppins_medium"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/phone"
+            android:textSize="13dp"
+            android:inputType="number"
+            android:drawableTint="@color/main_purple"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins_medium"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_password_regis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
 
             android:hint="Password">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/et_password_regis"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/password2"
-                android:textSize="13dp"
-                android:inputType="textPassword"
-                android:drawableTint="@color/main_purple"
-                android:drawablePadding="10dp"
-                android:fontFamily="@font/poppins_medium"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/password2"
+            android:textSize="13dp"
+            android:inputType="textPassword"
+            android:drawableTint="@color/main_purple"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins_medium"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 

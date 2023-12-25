@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".profileFragment">
+    tools:context=".Public_page.publicHomeActivity">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:background="@drawable/border_input"
+            android:backgroundTint="@color/main_purple"
             android:paddingVertical="15dp"
             android:layout_marginHorizontal="10dp"
             android:paddingStart="15dp"
@@ -53,7 +54,7 @@
                     android:layout_height="wrap_content"
                     android:text="Nama User"
                     android:textSize="18dp"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:fontFamily="@font/poppins_bold"/>
 
                 <TextView
@@ -61,6 +62,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nama User"
+                    android:textColor="@color/white"
                     android:textSize="12dp"
                     android:fontFamily="@font/poppins_bold"/>
 
@@ -76,15 +78,16 @@
             android:orientation="vertical"
             android:paddingHorizontal="20dp">
 
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Account"
-               android:fontFamily="@font/poppins_bold"
-               android:textSize="18dp"
-               android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"/>
 
             <TextView
+                android:id="@+id/txt_detail_profiles"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Account Detail"
