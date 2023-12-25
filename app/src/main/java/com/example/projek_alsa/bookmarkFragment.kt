@@ -1,13 +1,10 @@
 package com.example.room2.Public_page
 
-import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import com.example.room2.R
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -16,12 +13,12 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [profileFragment.newInstance] factory method to
+ * Use the [bookmarkFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
 
-//UNTUK MEMBUAT FRAGMENT PROFILE YANG AKAN DI TAMPILKAN DI DASHBOARD USER
-class profileFragment : Fragment() {
+//KODE UNTUK MENGATUR LAYOUT BOOKMARK
+class bookmarkFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -34,19 +31,10 @@ class profileFragment : Fragment() {
         }
     }
 
-    @SuppressLint("MissingInflatedId")
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        val fragmentHome = inflater.inflate(R.layout.fragment_profile, container, false)
-
-        val buttonProfiles = fragmentHome.findViewById<TextView>(R.id.txt_detail_profiles)
-
-        buttonProfiles.setOnClickListener {
-            startActivity(Intent(requireContext(), detailProfileActivity::class.java))
-        }
-
         // Inflate the layout for this fragment
-        return fragmentHome
+        return inflater.inflate(R.layout.fragment_bookmark, container, false)
     }
 
     companion object {
@@ -56,11 +44,11 @@ class profileFragment : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment profileFragment.
+         * @return A new instance of fragment bookmarkFragment.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic fun newInstance(param1: String, param2: String) =
-                profileFragment().apply {
+                bookmarkFragment().apply {
                     arguments = Bundle().apply {
                         putString(ARG_PARAM1, param1)
                         putString(ARG_PARAM2, param2)
